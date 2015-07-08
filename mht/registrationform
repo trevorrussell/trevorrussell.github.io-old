@@ -1,0 +1,184 @@
+<head>
+<style>
+.form{ 
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%; 
+    min-width: 25%; 
+    border-width: 2px; 
+    border-color: #014595; 
+    border-radius: 4px; 
+    border-style: solid; 
+    color: #222222; 
+    font-size: 14px; 
+    margin: 0px; 
+    background-color: #FFFFFF; 
+    padding: 20px; 
+} 
+.content{ 
+    margin: 0px; 
+} 
+.form label{ 
+    color: #222222; 
+    font-size: 14px; 
+    display: block; 
+} 
+.form input[type=radio]{ 
+    margin: 10px; 
+    width: 13px; 
+} 
+.form div{ 
+    display: block; 
+} 
+.form input, form textarea, form select{ 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #666666; 
+    border-radius: 6px; 
+    padding: 3px; 
+    width: 100%; 
+} 
+.form h1{ 
+    font-size: 40px; 
+    color: #014595; 
+    padding: 0px; 
+    margin: 0px; 
+    margin-bottom: 10px; 
+    border-bottom-style: dotted; 
+    border-bottom-color: #CCCCCC; 
+    border-bottom-width: 2px; 
+    border-radius: 0px; 
+    background-color: #FFFFFF; 
+} 
+.intro{ 
+    margin-bottom: 10px; 
+} 
+.clear{ 
+    clear: both; 
+} 
+.form textarea{ 
+    height: 50px; 
+    width: 100%; 
+} 
+.form input[type=submit]{ 
+    width: 100px; 
+    background-color: #CCCCCC; 
+    color: #222222; 
+} 
+.field{ 
+    margin-bottom: 5px; 
+} 
+</style>
+
+</head>
+
+<form id="form" class="form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+    <input type=hidden name="oid" value="00D1a000000aicj">
+    <input type=hidden name="lead_source" value="Web - Website Registration Form">
+    <input type=hidden name="country_code" value="US">
+    <input type=hidden name="retURL" value="http://mhtlighting.com/">
+    <h1>Registration Form</h1>
+    <div class="content">
+        <div class="intro">Use the form below to get in touch, or call us on xxx-xxx-xxx</div>
+        <div id="section0" >
+        </div>
+        <h2 class="section">Company Information</h2>
+        <div id="section1" >
+            <div class="field"><label for="company">Company Name</label><input type="text" id="company" name="company" maxlength="40" required></div>
+            <div class="field"><label for="00N1a000006BzRM">Company Type</label><select  id="00N1a000006BzRM" name="00N1a000006BzRM" title="Company Type">
+                <option value="">--None--</option>
+                <option value="Rep">Rep</option>
+                <option value="Distributor">Distributor</option>
+            </select></div>
+            <div class="field"><label for="first_name">First Name</label><input type="text" id="first_name" name="first_name" maxlength="40" required></div>
+            <div class="field"><label for="last_name">Last Name</label><input type="text" id="last_name" name="last_name" maxlength="80" required></div>
+            <div class="field"><label for="email">Corporate Email</label><input type="text" id="email" name="email" maxlength="80" required></div>
+
+        </div>
+        <h2 class="section">About the Project</h2>
+        <div id="section2" >
+            <div class="field"><label for="00N1a000006BzRW">Distributor</label><input type="text" id="00N1a000006BzRW" name="00N1a000006BzRW" maxlength="255"></div>
+            <div class="field"><label for="00N1a000006BzRb">End User</label><input type="text" id="00N1a000006BzRb" name="00N1a000006BzRb" maxlength="255"></div>
+            <div class="field"><label for="00N1a000006BzRl">Site / Project Name</label><input type="text" id="00N1a000006BzRl" name="00N1a000006BzRl" maxlength="255"></div>
+            <div class="field"><label for="city">City</label><input type="text" id="city" name="city" maxlength="40"></div>
+            <div class="field"><label for="state_code">State</label><select id="state_code" name="state_code">
+                <option value="">--None--</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+                <option value="PA">Pennsylvania</option>
+                <option value="RI">Rhode Island</option>
+                <option value="SC">South Carolina</option>
+                <option value="SD">South Dakota</option>
+                <option value="TN">Tennessee</option>
+                <option value="TX">Texas</option>
+                <option value="UT">Utah</option>
+                <option value="VT">Vermont</option>
+                <option value="VA">Virginia</option>
+                <option value="WA">Washington</option>
+                <option value="WV">West Virginia</option>
+                <option value="WI">Wisconsin</option>
+                <option value="WY">Wyoming</option>
+            </select></div>
+            <div class="field"><label for="00N1a000006BzRq">Brief Description</label><textarea id="00N1a000006BzRq" name="00N1a000006BzRq" maxlength="10000" rows="3"></textarea></div>
+            <!-- <div class="field" style="width:50%;"><label for="00N1a000006CrL7">Product</label>
+                <span>Induction</span><input type="checkbox" value="Induction" id="00N1a000006CrL7" name="00N1a000006CrL7">
+                <span>LED</span><input type="checkbox" value="LED" id="00N1a000006CrL7" name="00N1a000006CrL7">
+                <span>Energy Management</span><input type="checkbox" value="Energy Management" id="00N1a000006CrL7" name="00N1a000006CrL7">
+                <span>Low Voltage</span><input type="checkbox" value="Low Voltage" id="00N1a000006CrL7" name="00N1a000006CrL7">
+            </div> -->
+            <div class="field" style="width:50%;"><label for="00N1a000006CrL7">Product</label>
+            <br/>
+                Induction<input type="checkbox" value="Induction" id="00N1a000006CrL7" name="00N1a000006CrL7">
+                LED<input type="checkbox" value="LED" id="00N1a000006CrL7" name="00N1a000006CrL7">
+                Energy Management<input type="checkbox" value="Energy Management" id="00N1a000006CrL7" name="00N1a000006CrL7">
+                Low Voltage<input type="checkbox" value="Low Voltage" id="00N1a000006CrL7" name="00N1a000006CrL7">
+            </div>
+
+
+            
+            <div class="field"><label for="00N1a000006BzS5">Application</label><select id="00N1a000006BzS5" name="00N1a000006BzS5">
+                <option value="">--None--</option>
+                <option value="Interior">Interior</option>
+                <option value="Exterior">Exterior</option>
+                <option value="Interior/Exterior">Interior/Exterior</option>
+                </select>
+            </div>
+        </div>
+        <input type="submit" name="submit">
+    </div>
+</form>
