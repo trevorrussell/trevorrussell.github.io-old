@@ -26,6 +26,16 @@
     margin: 10px; 
     width: 13px; 
 } 
+.form input[type=checkbox]{ 
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+} 
 .form div{ 
     display: block; 
 } 
@@ -155,21 +165,18 @@
                 <option value="WY">Wyoming</option>
             </select></div>
             <div class="field"><label for="00N1a000006BzRq">Brief Description</label><textarea id="00N1a000006BzRq" name="00N1a000006BzRq" maxlength="10000" rows="3"></textarea></div>
-            <!-- <div class="field" style="width:50%;"><label for="00N1a000006CrL7">Product</label>
-                <span>Induction</span><input type="checkbox" value="Induction" id="00N1a000006CrL7" name="00N1a000006CrL7">
-                <span>LED</span><input type="checkbox" value="LED" id="00N1a000006CrL7" name="00N1a000006CrL7">
-                <span>Energy Management</span><input type="checkbox" value="Energy Management" id="00N1a000006CrL7" name="00N1a000006CrL7">
-                <span>Low Voltage</span><input type="checkbox" value="Low Voltage" id="00N1a000006CrL7" name="00N1a000006CrL7">
-            </div> -->
-            <div class="field" style="width:50%;"><label for="00N1a000006CrL7">Product</label>
-            <br/>
-                Induction<input type="checkbox" value="Induction" id="00N1a000006CrL7" name="00N1a000006CrL7">
-                LED<input type="checkbox" value="LED" id="00N1a000006CrL7" name="00N1a000006CrL7">
-                Energy Management<input type="checkbox" value="Energy Management" id="00N1a000006CrL7" name="00N1a000006CrL7">
-                Low Voltage<input type="checkbox" value="Low Voltage" id="00N1a000006CrL7" name="00N1a000006CrL7">
+
+            <div class="field" style="width:50%;"><label for="00N1a000006CrL7">Product:</label>
+                <div>
+                <input type="checkbox" value="Induction" id="00N1a000006CrL7" name="00N1a000006CrL7"> Induction</div>
+                <div>
+                <input type="checkbox" value="LED" id="00N1a000006CrL7" name="00N1a000006CrL7"> LED</div>
+                <div>
+                <input type="checkbox" value="Energy Management" id="00N1a000006CrL7" name="00N1a000006CrL7"> Energy Management</div>
+                <div>
+                <input type="checkbox" value="Low Voltage" id="00N1a000006CrL7" name="00N1a000006CrL7"> Low Voltage
+                </div>
             </div>
-
-
             
             <div class="field"><label for="00N1a000006BzS5">Application</label><select id="00N1a000006BzS5" name="00N1a000006BzS5">
                 <option value="">--None--</option>
